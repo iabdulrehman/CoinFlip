@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListPreference
+            android:title="Select Country"
+            android:summary="Select Coin to be used for Toss by Country Name"
+            android:dialogTitle="@string/select"
+            android:entries="@array/coin_country"
+            android:entryValues="@array/coin_country_value"
+            android:defaultValue="0"
+            android:key="@string/key"
+            >
+        </ListPreference>
+</PreferenceScreen>
